@@ -1,0 +1,225 @@
+baseURL = "https://musclelove-777.github.io/japan-travel-navi/"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+theme = "PaperMod"
+paginate = 20
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Japan Travel Navi"
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "Discover the best of Japan - temples, food, culture, and hidden gems"
+      author = "Japan Travel Navi"
+      [languages.en.params.homeInfoParams]
+        Title = "Japan Travel Navi"
+        Content = "Your ultimate guide to exploring Japan. Temples, shrines, food, culture, and off-the-beaten-path destinations."
+
+  [languages.ja]
+    languageName = "日本語"
+    weight = 2
+    title = "ジャパントラベルナビ"
+    contentDir = "content/ja"
+    [languages.ja.params]
+      description = "日本の名所・グルメ・文化を紹介する観光ガイド"
+      author = "ジャパントラベルナビ"
+      [languages.ja.params.homeInfoParams]
+        Title = "ジャパントラベルナビ"
+        Content = "日本の寺社仏閣、グルメ、文化、穴場スポットを紹介します"
+
+  [languages.zh]
+    languageName = "中文"
+    weight = 3
+    title = "日本旅游导航"
+    contentDir = "content/zh"
+    [languages.zh.params]
+      description = "探索日本最佳景点 - 寺庙、美食、文化和隐藏宝地"
+      author = "日本旅游导航"
+      [languages.zh.params.homeInfoParams]
+        Title = "日本旅游导航"
+        Content = "您的日本旅行终极指南。寺庙、神社、美食、文化和小众目的地。"
+
+  [languages.ko]
+    languageName = "한국어"
+    weight = 4
+    title = "일본여행나비"
+    contentDir = "content/ko"
+    [languages.ko.params]
+      description = "일본 최고의 관광지를 발견하세요 - 사찰, 음식, 문화, 숨겨진 보석"
+      author = "일본여행나비"
+      [languages.ko.params.homeInfoParams]
+        Title = "일본여행나비"
+        Content = "일본 여행의 모든 것. 사찰, 신사, 음식, 문화, 숨은 명소를 소개합니다."
+
+  [languages.es]
+    languageName = "Español"
+    weight = 5
+    title = "Japón Travel Navi"
+    contentDir = "content/es"
+    [languages.es.params]
+      description = "Descubre lo mejor de Japón - templos, gastronomía, cultura y joyas ocultas"
+      author = "Japón Travel Navi"
+      [languages.es.params.homeInfoParams]
+        Title = "Japón Travel Navi"
+        Content = "Tu guía definitiva para explorar Japón. Templos, santuarios, gastronomía, cultura y destinos fuera de lo común."
+
+[params]
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  comments = false
+  keywords = ["Japan travel", "Japanese temples", "Japanese food", "Tokyo", "Kyoto", "Osaka", "Japan tourism", "Japan guide"]
+  images = ["/images/japan-hero.jpg"]
+  canonicalURL = true
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.7
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# English menu
+[[languages.en.menus.main]]
+  name = "🏯 Temples"
+  url = "/categories/temples/"
+  weight = 10
+[[languages.en.menus.main]]
+  name = "🍣 Food"
+  url = "/categories/food/"
+  weight = 20
+[[languages.en.menus.main]]
+  name = "🗾 Cities"
+  url = "/categories/cities/"
+  weight = 30
+[[languages.en.menus.main]]
+  name = "🎌 Culture"
+  url = "/categories/culture/"
+  weight = 40
+[[languages.en.menus.main]]
+  name = "🏔 Nature"
+  url = "/categories/nature/"
+  weight = 50
+[[languages.en.menus.main]]
+  name = "🔍 Search"
+  url = "/search/"
+  weight = 90
+
+# Japanese menu
+[[languages.ja.menus.main]]
+  name = "🏯 寺社仏閣"
+  url = "/categories/寺社仏閣/"
+  weight = 10
+[[languages.ja.menus.main]]
+  name = "🍣 グルメ"
+  url = "/categories/グルメ/"
+  weight = 20
+[[languages.ja.menus.main]]
+  name = "🗾 都市"
+  url = "/categories/都市/"
+  weight = 30
+[[languages.ja.menus.main]]
+  name = "🎌 文化"
+  url = "/categories/文化/"
+  weight = 40
+[[languages.ja.menus.main]]
+  name = "🏔 自然"
+  url = "/categories/自然/"
+  weight = 50
+[[languages.ja.menus.main]]
+  name = "🔍 検索"
+  url = "/search/"
+  weight = 90
+
+# Chinese menu
+[[languages.zh.menus.main]]
+  name = "🏯 寺庙"
+  url = "/categories/寺庙/"
+  weight = 10
+[[languages.zh.menus.main]]
+  name = "🍣 美食"
+  url = "/categories/美食/"
+  weight = 20
+[[languages.zh.menus.main]]
+  name = "🗾 城市"
+  url = "/categories/城市/"
+  weight = 30
+[[languages.zh.menus.main]]
+  name = "🎌 文化"
+  url = "/categories/文化/"
+  weight = 40
+[[languages.zh.menus.main]]
+  name = "🏔 自然"
+  url = "/categories/自然/"
+  weight = 50
+[[languages.zh.menus.main]]
+  name = "🔍 搜索"
+  url = "/search/"
+  weight = 90
+
+# Korean menu
+[[languages.ko.menus.main]]
+  name = "🏯 사찰"
+  url = "/categories/사찰/"
+  weight = 10
+[[languages.ko.menus.main]]
+  name = "🍣 음식"
+  url = "/categories/음식/"
+  weight = 20
+[[languages.ko.menus.main]]
+  name = "🗾 도시"
+  url = "/categories/도시/"
+  weight = 30
+[[languages.ko.menus.main]]
+  name = "🎌 문화"
+  url = "/categories/문화/"
+  weight = 40
+[[languages.ko.menus.main]]
+  name = "🏔 자연"
+  url = "/categories/자연/"
+  weight = 50
+[[languages.ko.menus.main]]
+  name = "🔍 검색"
+  url = "/search/"
+  weight = 90
+
+# Spanish menu
+[[languages.es.menus.main]]
+  name = "🏯 Templos"
+  url = "/categories/templos/"
+  weight = 10
+[[languages.es.menus.main]]
+  name = "🍣 Gastronomía"
+  url = "/categories/gastronomía/"
+  weight = 20
+[[languages.es.menus.main]]
+  name = "🗾 Ciudades"
+  url = "/categories/ciudades/"
+  weight = 30
+[[languages.es.menus.main]]
+  name = "🎌 Cultura"
+  url = "/categories/cultura/"
+  weight = 40
+[[languages.es.menus.main]]
+  name = "🏔 Naturaleza"
+  url = "/categories/naturaleza/"
+  weight = 50
+[[languages.es.menus.main]]
+  name = "🔍 Buscar"
+  url = "/search/"
+  weight = 90

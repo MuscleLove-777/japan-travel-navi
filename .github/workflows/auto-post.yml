@@ -1,0 +1,42 @@
+name: Auto Post - Weekly New Content
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'  # Every Monday at 3:00 AM UTC (12:00 PM JST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate new articles
+        run: |
+          cd scripts
+          python3 main.py
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/
+          git commit -m "Auto-generate new travel articles"
+          git push

@@ -1,0 +1,32 @@
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "author": {"@type": "Organization", "name": "Japan Travel Navi"},
+  "publisher": {"@type": "Organization", "name": "Japan Travel Navi"}
+  {{ with .Params.cover }}{{ if .image }},"image": "{{ .image }}"{{ end }}{{ end }}
+}
+</script>
+{{ end }}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ .Site.BaseURL }}search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ end }}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ .Title }}" />
+{{ with .Params.cover }}{{ if .image }}<meta name="twitter:image" content="{{ .image }}" />{{ end }}{{ end }}
