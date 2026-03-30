@@ -1,4 +1,5 @@
 baseURL = "https://musclelove-777.github.io/japan-travel-navi/"
+googleAnalytics = "G-CSFVD34MKK"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 theme = "PaperMod"
