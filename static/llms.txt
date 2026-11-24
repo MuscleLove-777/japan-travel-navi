@@ -1,0 +1,36 @@
+# https://musclelove-777.github.io/japan-travel-navi/en/
+
+> japan-travel-navi — MuscleLove-777 network site.
+
+## Main Pages
+
+- [Home](https://musclelove-777.github.io/japan-travel-navi/): main page of https://musclelove-777.github.io/japan-travel-navi/en/.
+- [en](https://musclelove-777.github.io/japan-travel-navi/en/): main page of https://musclelove-777.github.io/japan-travel-navi/en/.
+
+## Articles (most recent)
+
+- [art](https://musclelove-777.github.io/japan-travel-navi/en/tags/art/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [categories](https://musclelove-777.github.io/japan-travel-navi/en/categories/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [islands](https://musclelove-777.github.io/japan-travel-navi/en/tags/islands/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [naoshima](https://musclelove-777.github.io/japan-travel-navi/en/tags/naoshima/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [nature](https://musclelove-777.github.io/japan-travel-navi/en/categories/nature/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [posts](https://musclelove-777.github.io/japan-travel-navi/en/posts/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [setouchi](https://musclelove-777.github.io/japan-travel-navi/en/tags/setouchi/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [setouchi art islands](https://musclelove-777.github.io/japan-travel-navi/en/posts/setouchi-art-islands/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [tags](https://musclelove-777.github.io/japan-travel-navi/en/tags/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [arashiyama](https://musclelove-777.github.io/japan-travel-navi/en/tags/arashiyama/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [arashiyama bamboo](https://musclelove-777.github.io/japan-travel-navi/en/posts/arashiyama-bamboo/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [bamboo](https://musclelove-777.github.io/japan-travel-navi/en/tags/bamboo/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [forest](https://musclelove-777.github.io/japan-travel-navi/en/tags/forest/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [kyoto](https://musclelove-777.github.io/japan-travel-navi/en/tags/kyoto/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [biei](https://musclelove-777.github.io/japan-travel-navi/en/tags/biei/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [biei blue pond](https://musclelove-777.github.io/japan-travel-navi/en/posts/biei-blue-pond/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [blue pond](https://musclelove-777.github.io/japan-travel-navi/en/tags/blue-pond/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [hokkaido](https://musclelove-777.github.io/japan-travel-navi/en/tags/hokkaido/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [mystical](https://musclelove-777.github.io/japan-travel-navi/en/tags/mystical/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+- [castle](https://musclelove-777.github.io/japan-travel-navi/en/tags/castle/): article on https://musclelove-777.github.io/japan-travel-navi/en/.
+
+## About this file
+
+This llms.txt follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
+Generated automatically from sitemap.xml. Source repository: https://github.com/MuscleLove-777/japan-travel-navi
